@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+trainer.yml
+labels.pickle
+attendance.db
+dataset/
+archived_unused/
+*.zip
+.vs/
