@@ -20,37 +20,39 @@ A **web-based face recognition attendance system** built using Python, OpenCV, F
 
 Face_Recognition_Attendance/
 │
-├─ app.py                 # Flask application
-├─ capture_faces.py       # Capture student face images
-├─ train_model.py         # Train the LBPH face recognition model
-├─ attendance.py          # Real-time attendance script
-├─ dataset/               # Folder to store student images
-├─ trainer.yml            # Saved trained model (auto-generated)
-├─ labels.pickle          # ID → Name mapping (auto-generated)
-├─ attendance.csv         # CSV attendance log
-├─ templates/             # HTML templates (dashboard.html, etc.)
-└─ static/                # CSS, JS, images
+├─ app.py                 
+├─ capture_faces.py        
+├─ train_model.py         
+├─ attendance.py          
+├─ dataset/                
+├─ labels.pickle          
+├─ attendance.csv         
+├─ templates/             
+└─ static/                
 
 ---
 
 ## ⚡ Installation
 
 1. Clone the repository:
+```bash
 git clone <repo_url>
 cd Face_Recognition_Attendance
+````
 
-2. Create and activate a virtual environment:
+1. Create and activate a virtual environment:
+```bash
 python -m venv venv
 # Windows
 venv\Scripts\activate
 # Linux/Mac
 source venv/bin/activate
-
-3. Install required packages:
+````
+1. Install required packages:
+```bash
 pip install -r requirements.txt
 # (requirements include: Flask, OpenCV, Pillow, pandas, numpy)
-
----
+````
 
 ## 🚀 Usage
 
@@ -104,7 +106,8 @@ Visit `http://127.0.0.1:5000` in your browser.
 ---
 
 ## 🖼 Screenshots
-(Include images of the dashboard, capture window, and attendance table here)
+
+*(Include images of the dashboard, capture window, and attendance table here)*
 
 ---
 
@@ -118,6 +121,6 @@ Visit `http://127.0.0.1:5000` in your browser.
 
 ## ⚡ Author
 
-AMAN NAYAK  
+**AMAN NAYAK**  
 Email: codinggujarat@gmail.com  
-GitHub: codinggujarat
+GitHub: [codinggujarat](https://github.com/codinggujarat)
